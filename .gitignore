@@ -1,17 +1,16 @@
 # Ignore everything
 *
 
-# But not these files...
+# General
 !/.gitignore
-
-!*.go
-!go.sum
-!go.mod
 
 !README.md
 !LICENSE
 
-# !Makefile
+# Go
+!*.go
+!go.sum
+!go.mod
 
 # ...even if they are in subdirectories
 !*/
