@@ -1,3 +1,3 @@
-### LeetCode
+# LeetCode
 
 🤟😎👍
