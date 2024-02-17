@@ -9,26 +9,20 @@ type ListNode struct {
 func AddTwoNumbers(l1, l2 *ListNode) *ListNode {
 	carry := 0
 	dummy := &ListNode{Val: 0}
-	head := dummy
 
-	for l1 != nil || l2 != nil || carry > 0 {
-		sum := carry
-
+	for head := dummy; l1 != nil || l2 != nil || carry > 0; head = head.Next {
 		if l1 != nil {
-			sum += l1.Val
+			carry += l1.Val
 			l1 = l1.Next
 		}
 
 		if l2 != nil {
-			sum += l2.Val
+			carry += l2.Val
 			l2 = l2.Next
 		}
 
-		carry = sum / 10
-		digit := sum % 10
-
-		head.Next = &ListNode{Val: digit}
-		head = head.Next
+		head.Next = &ListNode{Val: carry % 10}
+		carry /= 10
 	}
 
 	return dummy.Next
