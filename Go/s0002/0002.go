@@ -1,9 +1,23 @@
-package s0002
+package main
+
+import (
+	"fmt"
+	"strings"
+)
 
 // Definition for singly-linked list
 type ListNode struct {
 	Val  int
 	Next *ListNode
+}
+
+func (n *ListNode) String() string {
+	v := make([]string, 0)
+	for n != nil {
+		v = append(v, fmt.Sprint(n.Val))
+		n = n.Next
+	}
+	return fmt.Sprintf("[%s]", strings.Join(v, ", "))
 }
 
 func AddTwoNumbers(l1, l2 *ListNode) *ListNode {
