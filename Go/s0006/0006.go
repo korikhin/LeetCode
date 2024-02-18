@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "strings"
 
 func Convert(s string, numRows int) string {
 	n := len(s)
@@ -31,11 +28,4 @@ func Convert(s string, numRows int) string {
 		z.WriteString(b.String())
 	}
 	return z.String()
-}
-
-func main() {
-	s := "PAYPALISHIRING"
-	n := 3
-
-	fmt.Println(Convert(s, n))
 }
