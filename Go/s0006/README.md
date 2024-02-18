@@ -14,7 +14,6 @@ Write the code that will take a string and make this conversion given a number o
 > string convert(string s, int numRows);
 
 <br>
-<br>
 
 ### Example 1
 
