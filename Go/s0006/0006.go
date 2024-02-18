@@ -4,7 +4,7 @@ import "strings"
 
 func Convert(s string, numRows int) string {
 	n := len(s)
-	if s == "" || numRows == 1 || numRows >= n {
+	if numRows == 1 || numRows >= n {
 		return s
 	}
 
