@@ -27,6 +27,7 @@ Example 2:
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
 Explanation:
+
     P     I    N
     A   L S  I G
     Y A   H R
@@ -39,7 +40,7 @@ Explanation:
 Input: s = "A", numRows = 1
 Output: "A"
 ```
-
+  
 ### Constraints
 
 * `1 <= s.length <= 1000`
