@@ -42,8 +42,9 @@ Explanation:
 Input: s = "A", numRows = 1
 Output: "A"
 ```
-  
-  
+
+<br>
+
 ### Constraints
 
 * `1 <= s.length <= 1000`
