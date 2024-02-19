@@ -9,8 +9,9 @@ func Convert(s string, numRows int) string {
 	}
 
 	d := make([]strings.Builder, numRows)
-	for _, b := range d {
-		b.Grow(n/numRows + 1)
+	c := 2*(n-1)/(2*numRows-2) + 1
+	for i := range d {
+		d[i].Grow(c)
 	}
 
 	j, delta := 0, -1
