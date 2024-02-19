@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
 func Reverse(x int) int {
 	r := 0
@@ -27,8 +24,4 @@ func abs(x int) int {
 		return -x
 	}
 	return x
-}
-
-func main() {
-	fmt.Println(Reverse(-321))
 }
