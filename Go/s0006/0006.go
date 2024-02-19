@@ -8,25 +8,25 @@ func Convert(s string, numRows int) string {
 		return s
 	}
 
-	d := make([]strings.Builder, numRows)
+	b := make([]strings.Builder, numRows)
 	c := 2*(n-1)/(2*numRows-2) + 1
-	for i := range d {
-		d[i].Grow(c)
+	for i := range b {
+		b[i].Grow(c)
 	}
 
-	j, delta := 0, -1
+	i, delta := 0, -1
 	for _, r := range s {
-		if j == 0 || j == numRows-1 {
+		if i == 0 || i == numRows-1 {
 			delta *= -1
 		}
-		d[j].WriteRune(r)
-		j += delta
+		b[i].WriteRune(r)
+		i += delta
 	}
 
 	var z strings.Builder
 	z.Grow(n)
-	for _, b := range d {
-		z.WriteString(b.String())
+	for _, bb := range b {
+		z.WriteString(bb.String())
 	}
 	return z.String()
 }
