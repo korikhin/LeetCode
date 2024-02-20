@@ -9,8 +9,6 @@
 
 # Go
 !*.go
-!go.sum
-!go.mod
 
 # Python
 !*.py
