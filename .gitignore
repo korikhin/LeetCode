@@ -2,7 +2,7 @@
 *
 
 # General
-!/.gitignore
+# !/.gitignore
 
 !README.md
 !LICENSE
