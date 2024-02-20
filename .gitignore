@@ -4,10 +4,8 @@
 !README.md
 !LICENSE
 
-# Go
+# Solutions
 !*.go
-
-# Python
 !*.py
 
 # ...even if they are in subdirectories
