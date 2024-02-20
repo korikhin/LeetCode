@@ -1,9 +1,6 @@
 # Ignore everything
 *
 
-# General
-# !/.gitignore
-
 !README.md
 !LICENSE
 
