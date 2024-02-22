@@ -4,7 +4,7 @@ Given a string containing digits from `2-9` inclusive, return all possible lette
   
 A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
-<center>![Telephone Keypad](data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6AB
+<center>![Telephone Keypad](data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6AB
 AAMAAAABAAEAAKACAAQAAAABAAABLKADAAQAAAABAAAA8wAAAAD/2wBDABALDA4MChAODQ4SERATGCga
 GBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8a
 Gi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAAR
