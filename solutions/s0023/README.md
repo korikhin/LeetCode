@@ -1,4 +1,4 @@
-## 23. 
+## 23. Merge k Sorted Lists
 
 You are given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order.  
   
@@ -47,4 +47,4 @@ Output: []
 * `0 <= lists[i].length <= 500`
 * `-10^4 <= lists[i][j] <= 10^4`
 * `lists[i]` is sorted in **ascending order**.
-* The sum of `lists[i].length` will not exceed &10^4&.
+* The sum of `lists[i].length` will not exceed $10^4$.

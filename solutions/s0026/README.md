@@ -1,6 +1,6 @@
 ## 26. Remove Duplicates from Sorted Array
 
-Given an integer array `nums` sorted in **non-decreasing** order, remove the duplicates **in-place** such that each unique element appears only **once**. The **relative order** of the elements should be kept the **same**. Then return *the number of unique elements in* `nums`.  
+Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates **in-place** such that each unique element appears only **once**. The **relative order** of the elements should be kept the **same**. Then return *the number of unique elements in* `nums`.  
   
 Consider the number of unique elements of nums to be `k`, to get accepted, you need to do the following things:
 
@@ -49,4 +49,4 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 * `1 <= nums.length <= 3 * 10^4`
 * `-100 <= nums[i] <= 100`
-* `nums` is sorted in **non-decreasing** order.
+* `nums` is sorted in **non-decreasing order**.
