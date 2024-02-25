@@ -6,7 +6,8 @@ func LongestValidParentheses(s string) int {
 	}
 
 	m := 0
-	stack := []int{-1}
+	stack := make([]int, 0, len(s)+1)
+	stack = append(stack, -1)
 
 	for i := range s {
 		if s[i] == '(' {
