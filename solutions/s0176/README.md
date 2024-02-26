@@ -24,8 +24,8 @@ The result format is in the following example.
 
 ```
 Input: 
-Employee table:
 
+Employee table:
 +----+--------+
 | id | salary |
 +----+--------+
@@ -46,9 +46,9 @@ Output:
 ### Example 2
 
 ```
-Input: 
-Employee table:
+Input:
 
+Employee table:
 +----+--------+
 | id | salary |
 +----+--------+

@@ -17,6 +17,7 @@ This table contains information about the ID of some persons and their first and
 
 Table: `Address`
 
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -42,8 +43,8 @@ The result format is in the following example.
 
 ```
 Input: 
-Person table:
 
+Person table:
 +----------+----------+-----------+
 | personId | lastName | firstName |
 +----------+----------+-----------+
@@ -52,7 +53,6 @@ Person table:
 +----------+----------+-----------+
 
 Address table:
-
 +-----------+----------+---------------+------------+
 | addressId | personId | city          | state      |
 +-----------+----------+---------------+------------+
