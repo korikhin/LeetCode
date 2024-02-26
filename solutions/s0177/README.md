@@ -24,8 +24,9 @@ The result format is in the following example.
 
 ```
 Input: 
-Employee table:
 
+n = 2
+Employee table:
 +----+--------+
 | id | salary |
 +----+--------+
@@ -33,7 +34,6 @@ Employee table:
 | 2  | 200    |
 | 3  | 300    |
 +----+--------+
-n = 2
 
 Output: 
 
@@ -48,13 +48,14 @@ Output:
 
 ```
 Input: 
+
+n = 2
 Employee table:
 +----+--------+
 | id | salary |
 +----+--------+
 | 1  | 100    |
 +----+--------+
-n = 2
 
 Output: 
 
