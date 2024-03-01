@@ -11,16 +11,16 @@ func IsValidSudoku(board [][]byte) bool {
 				continue
 			}
 
-			n := 3*(i/3) + (j / 3)
-			bit := 1 << (cell - '1')
+			m := 1 << (cell - '1')
+			k := i/3*3 + j/3
 
-			if bit&(rows[i]|cols[j]|grid[n]) != 0 {
+			if m&(rows[i]|cols[j]|grid[k]) != 0 {
 				return false
 			}
 
-			rows[i] |= bit
-			cols[j] |= bit
-			grid[n] |= bit
+			rows[i] |= m
+			cols[j] |= m
+			grid[k] |= m
 		}
 	}
 
