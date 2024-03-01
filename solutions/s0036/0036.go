@@ -18,9 +18,9 @@ func IsValidSudoku(board [][]byte) bool {
 				return false
 			}
 
-			rows[i] |= m
-			cols[j] |= m
-			grid[k] |= m
+			rows[i] ^= m
+			cols[j] ^= m
+			grid[k] ^= m
 		}
 	}
 
