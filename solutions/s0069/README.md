@@ -28,4 +28,4 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 
 ### Constraints
 
-* $0 <= x <= 2^{31} - 1$
+* $0 \leqslant x \leqslant 2^{31} - 1$
