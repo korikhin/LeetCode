@@ -16,13 +16,13 @@ func IsMatch(s string, p string) bool {
 		dp[0] = false
 
 		for j := 1; j <= n; j++ {
-			temp := dp[j]
+			cur := dp[j]
 			if p[j-1] == '*' {
 				dp[j] = dp[j-2] || (dp[j] && (s[i-1] == p[j-2] || p[j-2] == '.'))
 			} else {
 				dp[j] = prev && (s[i-1] == p[j-1] || p[j-1] == '.')
 			}
-			prev = temp
+			prev = cur
 		}
 	}
 
