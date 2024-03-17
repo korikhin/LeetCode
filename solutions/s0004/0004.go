@@ -37,9 +37,8 @@ func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		if maxLeftX <= minRightY && maxLeftY <= minRightX {
 			if (m+n)&1 == 0 {
 				return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2
-			} else {
-				return max(maxLeftX, maxLeftY)
 			}
+			return max(maxLeftX, maxLeftY)
 		} else if maxLeftX > minRightY {
 			right = partitionX - 1
 		} else {
