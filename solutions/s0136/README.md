@@ -31,6 +31,6 @@ Output: 1
 
 ### Constraints
 
-* $1 \leqslant$ `nums.length` $\leqslant 3 * 10^4$
-* $-3 * 10^4 \leqslant$ `nums[i]` $\leqslant 3 * 10^4$
+* $1 \leqslant$ `nums.length` $\leqslant 3 \cdot 10^4$
+* $-3 \cdot 10^4 \leqslant$ `nums[i]` $\leqslant 3 \cdot 10^4$
 * Each element in the array appears twice except for one element which appears only once.
