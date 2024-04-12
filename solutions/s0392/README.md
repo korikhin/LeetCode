@@ -1,7 +1,7 @@
 ## 392. Is Subsequence
 
-Given two strings `s` and `t`, return _`true` if `s` is a **subsequence** of `t`, or `false` otherwise._
-
+Given two strings `s` and `t`, return *`true` if `s` is a **subsequence** of `t`, or `false` otherwise.*  
+  
 A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `"ace"` is a subsequence of `"abcde"` while `"aec"` is not).
 
 <br>
@@ -24,9 +24,9 @@ Output: false
 
 ### Constraints
 
-- $ 0 \leqslant $ `s.length` $ \leqslant 100 $
-- $ 0 \leqslant $ `t.length` $ \leqslant 10^4 $
-- `s` and `t` consist only of lowercase English letters.
+* $ 0 \leqslant $ `s.length` $ \leqslant 100 $
+* $ 0 \leqslant $ `t.length` $ \leqslant 10^4 $
+* `s` and `t` consist only of lowercase English letters.
 
 <br>
 
