@@ -33,6 +33,6 @@ Output: true
 
 ### Constraints
 
-* $ 1 \leqslant $ `s.length` $ \leqslant 5 * 10^4 $
+* $1 \leqslant$ `s.length` $\leqslant 5 \cdot 10^4$
 * `t.length == s.length`
 * `s` and `t` consist of any valid ASCII characters.
