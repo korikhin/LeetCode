@@ -40,7 +40,7 @@ Explanation: The ranges are:
 
 ### Constraints
 
-* $ 0 \leqslant $ `nums.length` $ \leqslant 20 $
-* $ -2^{31} \leqslant $ `nums[i]` $ \leqslant 2^{31} - 1 $
+* $0 \leqslant$ `nums.length` $\leqslant 20$
+* $-2^{31} \leqslant$ `nums[i]` $\leqslant 2^{31} - 1$
 * All the values of `nums` are **unique.**
 * `nums` is sorted in ascending order.
