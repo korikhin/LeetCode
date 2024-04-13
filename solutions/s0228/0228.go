@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func SummaryRanges(nums []int) (r []string) {
+func SummaryRanges(nums []uint64) (r []string) {
 	for i, k := 0, 0; k < len(nums); k++ {
-		i = k // Sync
+		i = k
 		for k < len(nums)-1 && nums[k] == nums[k+1]-1 {
 			k++
 		}
