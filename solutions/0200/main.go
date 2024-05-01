@@ -21,6 +21,7 @@ func numIslands(grid [][]byte) int {
 			return
 		}
 
+		// Mark as visited
 		grid[row][col] = '0'
 
 		dfs(row, col-1)
@@ -29,6 +30,7 @@ func numIslands(grid [][]byte) int {
 		dfs(row+1, col)
 	}
 
+	// Make sure to traverse through each cell
 	for i := range grid {
 		for k := range grid[0] {
 			if grid[i][k] == '1' {
