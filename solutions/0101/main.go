@@ -11,11 +11,11 @@ func isSymmetric(root *TreeNode) bool {
 		return true
 	}
 
-	return isSymmetricBranches(root.Left, root.Right)
+	return symmetricBranches(root.Left, root.Right)
 }
 
 // Same function from "100. Same Tree"
-func isSymmetricBranches(a *TreeNode, b *TreeNode) bool {
+func symmetricBranches(a *TreeNode, b *TreeNode) bool {
 	if a == nil || b == nil {
 		return a == b
 	}
@@ -23,6 +23,6 @@ func isSymmetricBranches(a *TreeNode, b *TreeNode) bool {
 		return false
 	}
 
-	// ...but leafs are swapped
-	return isSymmetricBranches(a.Left, b.Right) && isSymmetricBranches(a.Right, b.Left)
+	// ...but the leafs are swapped
+	return symmetricBranches(a.Left, b.Right) && symmetricBranches(a.Right, b.Left)
 }
