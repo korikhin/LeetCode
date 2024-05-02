@@ -37,5 +37,5 @@ Explanation
 ### Constraints
 
 - $-2^{31} \leqslant$ `val` $\leqslant 2^{31} - 1$
-- At most $2 \cdot 10^5$ calls will be made to Insert(), Remove(), and GetRandom().
-- There will be **at least one** element in the data structure when GetRandom() is called.
+- At most $2 \cdot 10^5$ calls will be made to `Insert()`, `Remove()`, and `GetRandom()`.
+- There will be **at least one** element in the data structure when `GetRandom()` is called.
