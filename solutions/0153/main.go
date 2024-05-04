@@ -7,7 +7,7 @@ func findMin(nums []int) int {
 		if nums[j] < nums[m] {
 			i = m + 1
 		} else {
-			j = m
+			j = m // If m could be the min, narrow the range to include m
 		}
 	}
 
