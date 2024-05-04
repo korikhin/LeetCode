@@ -4,7 +4,7 @@ Suppose an array of length `n` sorted in ascending order is **rotated** between 
 
 Given the sorted rotated array `nums` of **unique** elements, return _the minimum element of this array._
 
-You must write an algorithm that runs in $\mathrm{O}(\log n)$ time.
+You must write an algorithm that runs in $O(\log n)$ time.
 
 <br>
 
