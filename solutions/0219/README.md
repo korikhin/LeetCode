@@ -1,6 +1,6 @@
 ## 219. Contains Duplicate II
 
-Given an integer array `nums` and an integer `k`, return _true if there are two **distinct indices** `i` and `j` in the array such that `nums[i] == nums[j]` and $|i - j| \leqslant$ `k`._
+Given an integer array `nums` and an integer `k`, return _`true` if there are two **distinct indices** `i` and `j` in the array such that `nums[i] == nums[j]` and_ $|i - j| \leqslant k$.
 
 <br>
 
