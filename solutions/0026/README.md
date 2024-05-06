@@ -11,15 +11,19 @@ Consider the number of unique elements of nums to be `k`, to get accepted, you n
 
 The judge will test your solution with the following code:
 
-```
-int[] nums = [...]; // Input array
-int[] expectedNums = [...]; // The expected answer with correct length
+```go
+nums := []int{...}           // Input array
+expectedNums := []int{...}   // The expected answer with correct length
 
-int k = removeDuplicates(nums); // Calls your implementation
+k := removeDuplicates(nums)  // Calls your implementation
+if k != len(expectedNums) {
+	panic()
+}
 
-assert k == len(expectedNums);
-for (int i = 0; i < k; i++) {
-    assert nums[i] == expectedNums[i];
+for i := 0; i < k; i++ {
+	if nums[i] != expectedNums[i] {
+		panic()
+	}
 }
 ```
 

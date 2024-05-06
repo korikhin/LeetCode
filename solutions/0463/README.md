@@ -36,6 +36,6 @@ Output: 4
 
 - `row == len(grid)`
 - `col == len(grid[i])`
-- $1 \leqslant$ `row, col` $\leqslant 100$
+- $1 \leqslant$ `row`, `col` $\leqslant 100$
 - `grid[i][j]` is `0` or `1`
 - There is exactly one island in `grid`

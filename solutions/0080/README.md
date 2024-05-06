@@ -13,14 +13,14 @@ Do **not** allocate extra space for another array. You must do this by **modifyi
 The judge will test your solution with the following code:
 
 ```go
-nums := []int{...}         // Input array
-expectedNums := []int{...} // The expected answer with correct length
+nums := []int{...}           // Input array
+expectedNums := []int{...}   // The expected answer with correct length
 
-removeDuplicates(nums)     // Calls your implementation
-
+k := removeDuplicates(nums)  // Calls your implementation
 if k != len(expectedNums) {
 	panic()
 }
+
 for i := 0; i < k; i++ {
 	if nums[i] != expectedNums[i] {
 		panic()
@@ -28,7 +28,7 @@ for i := 0; i < k; i++ {
 }
 ```
 
-If all assertions pass, then your solution will be accepted.
+If all assertions pass, then your solution will be **accepted.**
 
 <br>
 

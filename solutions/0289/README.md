@@ -31,7 +31,7 @@ Output: [[1, 1], [1, 1]]
 
 - `m == len(board)`
 - `n == len(board[i])`
-- $1 \leqslant `m`, `n` $\leqslant 25$
+- $1 \leqslant$ `m`, `n` $\leqslant 25$
 - `board[i][j]` is `0` or `1`
 
 <br>

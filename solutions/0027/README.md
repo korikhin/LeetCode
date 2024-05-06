@@ -11,18 +11,21 @@ Consider the number of elements in `nums` which are not equal to `val` be `k`, t
 
 The judge will test your solution with the following code:
 
-```
-int[] nums = [...]; // Input array
-int val = ...; // Value to remove
-int[] expectedNums = [...]; // The expected answer with correct length.
-                            // It is sorted with no values equaling val.
+```go
+nums := []int{...}               // Input array
+val := ...                       // Value to remove
+expectedNums := []int{...}       // The expected answer with correct length
 
-int k = removeElement(nums, val); // Calls your implementation
+k := removeDuplicates(nums, val) // Calls your implementation
+if k != len(expectedNums) {
+	panic()
+}
 
-assert k == len(expectedNums);
-sort(nums, 0, k); // Sort the first k elements of nums
-for (int i = 0; i < actualLength; i++) {
-    assert nums[i] == expectedNums[i];
+sort.Ints(nums)
+for i := 0; i < k; i++ {
+	if nums[i] != expectedNums[i] {
+		panic()
+	}
 }
 ```
 

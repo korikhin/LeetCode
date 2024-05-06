@@ -45,6 +45,7 @@ The result format is in the following example.
 Input:
 
 Person table:
+
 +----------+----------+-----------+
 | personId | lastName | firstName |
 +----------+----------+-----------+
@@ -53,6 +54,7 @@ Person table:
 +----------+----------+-----------+
 
 Address table:
+
 +-----------+----------+---------------+------------+
 | addressId | personId | city          | state      |
 +-----------+----------+---------------+------------+
