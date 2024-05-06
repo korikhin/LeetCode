@@ -19,12 +19,12 @@ expectedNums := []int{...} // The expected answer with correct length
 removeDuplicates(nums)     // Calls your implementation
 
 if k != len(expectedNums) {
-  panic()
+	panic()
 }
 for i := 0; i < k; i++ {
-  if nums[i] != expectedNums[i] {
-    panic()
-  }
+	if nums[i] != expectedNums[i] {
+		panic()
+	}
 }
 ```
 
