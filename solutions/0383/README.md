@@ -27,6 +27,8 @@ Input: ransomNote = "aa", magazine = "aab"
 Output: true
 ```
 
+<br>
+
 ### Constraints
 
 - $1 \leqslant$ `len(ransomNote)`, `len(magazine)` $\leqslant 10^5$
