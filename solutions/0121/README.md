@@ -30,5 +30,5 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 ### Constraints
 
-- $1 \leqslant$ `prices.length` $\leqslant 10^5$
+- $1 \leqslant$ `len(prices)` $\leqslant 10^5$
 - $0 \leqslant$ `prices[i]` $\leqslant 10^4$

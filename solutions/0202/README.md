@@ -34,4 +34,4 @@ Output: false
 
 ### Constraints
 
-- $1 \leqslant$ `n` $<= 2^{31} - 1$
+- $1 \leqslant$ `n` $\leqslant 2^{31} - 1$

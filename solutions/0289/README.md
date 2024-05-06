@@ -29,8 +29,8 @@ Output: [[1, 1], [1, 1]]
 
 ### Constraints
 
-- `m == board.length`
-- `n == board[i].length`
+- `m == len(board)`
+- `n == len(board[i])`
 - $1 \leqslant `m`, `n` $\leqslant 25$
 - `board[i][j]` is `0` or `1`
 
