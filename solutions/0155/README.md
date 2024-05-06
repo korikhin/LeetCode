@@ -28,7 +28,7 @@ Explanation:
 ```
 
 ```go
-	minStack := Constructor()
+  minStack := Constructor()
   minStack.Push(-2)
   minStack.Push(0)
   minStack.Push(-3)
@@ -37,6 +37,8 @@ Explanation:
   minStack.Top()    // return 0
   minStack.Min()    // return -2
 ```
+
+<br>
 
 ### Constraints
 

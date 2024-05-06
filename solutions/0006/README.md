@@ -9,11 +9,7 @@ The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number o
 ```
 
 And then read line by line: `"PAHNAPLSIIGYIR"`
-Write the code that will take a string and make this conversion given a number of rows:
-
-```go
-convert(s string, numRows int) string;
-```
+Write the code that will take a string and make this conversion given a number of rows.
 
 <br>
 
