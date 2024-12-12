@@ -1,4 +1,4 @@
-##
+## 177. Nth Highest Salary
 
 Write a solution to find the n-th highest salary from the `Employee` table. If there is no n-th highest salary, return `null`.
 
