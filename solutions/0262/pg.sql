@@ -7,18 +7,12 @@ select
                 0
             end) / count(*), 2) as "Cancellation Rate"
 from
-    public.trips as t
+    trips t
+    join users uc on t.client_id = uc.users_id
+        and uc.banned = 'No'
+    join users ud on t.driver_id = ud.users_id
+        and ud.banned = 'No'
 where
-    exists (
-        select
-            null
-        from
-            public.users as u
-        where
-            u.users_id in (t.client_id, t.driver_id)
-            and u.banned = 'No'
-        having
-            count(*) = 2)
-    and t.request_at between '2013-10-01' and '2013-10-03'
+    t.request_at between '2013-10-01' and '2013-10-03'
 group by
     "Day";
